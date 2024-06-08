@@ -50,12 +50,23 @@ func (y *yrep) replace(in any) (any, error) {
 	switch v := in.(type) {
 	case yaml.MapSlice:
 		for i, item := range v {
-			replaced, err := y.replace(item.Value)
+			replaced, err := y.replace(item)
 			if err != nil && !errors.Is(err, ErrNotReplaced) {
 				return nil, err
 			}
-			v[i].Value = replaced
+			vv, ok := replaced.(yaml.MapItem)
+			if !ok {
+				return nil, ErrNotReplaced
+			}
+			v[i] = vv
 		}
+		return v, nil
+	case yaml.MapItem:
+		replaced, err := y.replace(v.Value)
+		if err != nil && !errors.Is(err, ErrNotReplaced) {
+			return nil, err
+		}
+		v.Value = replaced
 		return v, nil
 	case []any:
 		for i, vv := range v {
