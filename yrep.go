@@ -3,6 +3,7 @@ package yrep
 import (
 	"bytes"
 	"errors"
+	"fmt"
 
 	"github.com/goccy/go-yaml"
 )
@@ -56,7 +57,7 @@ func (y *yrep) replace(in any) (any, error) {
 			}
 			vv, ok := replaced.(yaml.MapItem)
 			if !ok {
-				return nil, ErrNotReplaced
+				return nil, fmt.Errorf("unexpected type: %v should be yaml.MapItem but got %T", replaced, replaced)
 			}
 			v[i] = vv
 		}
