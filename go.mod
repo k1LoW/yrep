@@ -2,7 +2,7 @@ module github.com/k1LoW/yrep
 
 go 1.22.4
 
-require github.com/goccy/go-yaml v1.11.3
+require github.com/goccy/go-yaml v1.12.0
 
 require (
 	github.com/fatih/color v1.10.0 // indirect
