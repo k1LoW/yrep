@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.4.1](https://github.com/k1LoW/yrep/compare/v0.4.0...v0.4.1) - 2025-12-01
+### Other Changes
+- chore: setup tagpr labels by @k1LoW in https://github.com/k1LoW/yrep/pull/27
+- chore(deps): bump the dependencies group across 1 directory with 2 updates by @dependabot[bot] in https://github.com/k1LoW/yrep/pull/26
+- chore(deps): bump actions/checkout from 5 to 6 in the dependencies group by @dependabot[bot] in https://github.com/k1LoW/yrep/pull/29
+- chore(deps): bump github.com/goccy/go-yaml from 1.18.0 to 1.19.0 in the dependencies group by @dependabot[bot] in https://github.com/k1LoW/yrep/pull/30
+
 ## [v0.4.0](https://github.com/k1LoW/yrep/compare/v0.3.0...v0.4.0) - 2025-06-03
 ### Other Changes
 - chore(deps): bump github.com/goccy/go-yaml from 1.17.1 to 1.18.0 in the dependencies group by @dependabot in https://github.com/k1LoW/yrep/pull/23
