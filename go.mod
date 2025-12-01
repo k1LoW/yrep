@@ -2,4 +2,4 @@ module github.com/k1LoW/yrep
 
 go 1.22.4
 
-require github.com/goccy/go-yaml v1.18.0
+require github.com/goccy/go-yaml v1.19.0
