@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.4.2](https://github.com/k1LoW/yrep/compare/v0.4.1...v0.4.2) - 2025-12-22
+### Other Changes
+- chore(deps): bump github.com/goccy/go-yaml from 1.19.0 to 1.19.1 in the dependencies group by @dependabot[bot] in https://github.com/k1LoW/yrep/pull/31
+
 ## [v0.4.1](https://github.com/k1LoW/yrep/compare/v0.4.0...v0.4.1) - 2025-12-01
 ### Other Changes
 - chore: setup tagpr labels by @k1LoW in https://github.com/k1LoW/yrep/pull/27
