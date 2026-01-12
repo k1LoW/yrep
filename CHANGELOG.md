@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.4.3](https://github.com/k1LoW/yrep/compare/v0.4.2...v0.4.3) - 2026-01-12
+### Other Changes
+- chore(deps): bump github.com/goccy/go-yaml from 1.19.1 to 1.19.2 in the dependencies group by @dependabot[bot] in https://github.com/k1LoW/yrep/pull/33
+
 ## [v0.4.2](https://github.com/k1LoW/yrep/compare/v0.4.1...v0.4.2) - 2025-12-22
 ### Other Changes
 - chore(deps): bump github.com/goccy/go-yaml from 1.19.0 to 1.19.1 in the dependencies group by @dependabot[bot] in https://github.com/k1LoW/yrep/pull/31
