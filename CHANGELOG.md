@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.4.4](https://github.com/k1LoW/yrep/compare/v0.4.3...v0.4.4) - 2026-06-21
+
+### Other Changes
+- chore(deps): bump actions/checkout from 6 to 7 in the dependencies group by @dependabot[bot] in https://github.com/k1LoW/yrep/pull/35
+
 ## [v0.4.3](https://github.com/k1LoW/yrep/compare/v0.4.2...v0.4.3) - 2026-01-12
 ### Other Changes
 - chore(deps): bump github.com/goccy/go-yaml from 1.19.1 to 1.19.2 in the dependencies group by @dependabot[bot] in https://github.com/k1LoW/yrep/pull/33
